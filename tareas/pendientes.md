@@ -1,5 +1,4 @@
 # Tareas Pendientes
-- [ ] Definir objetivos principales con el usuario.
-- [ ] Completar Interrogatorio Estratégico.
-- [ ] Crear carpeta `documentacion/` y archivos iniciales.
+- [ ] Analizar respuestas finales del Cuestionario Inicial.
+- [ ] Confirmar prioridades (Pregunta 5) y validación final (Pregunta 6).
 - [ ] Analizar documentación para diseño de equipo de agentes.

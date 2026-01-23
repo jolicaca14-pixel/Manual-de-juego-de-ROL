@@ -1,2 +1,3 @@
 # Tareas en Proceso
-- [ ] Fase 0: Interrogatorio Estratégico - Pendiente de respuestas del usuario al `Cuestionario_Inicial.md`.
+- [ ] Validación de Documentación Fundamental por parte del usuario.
+- [ ] Definición de Prioridades (Pregunta 5).
