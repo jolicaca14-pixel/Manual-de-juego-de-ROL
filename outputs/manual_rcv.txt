@@ -1,0 +1,125 @@
+# MANUAL TÉCNICO: CONTROL DEL RIESGO CARDIOVASCULAR
+*Una guía multidisciplinaria para la práctica clínica*
+
+## 1. Introducción
+Este documento centraliza los protocolos actuales para el manejo integral del riesgo cardiovascular (RCV), integrando recomendaciones de la AHA, ACC y ESC, junto con pautas de nutrición y psicología.
+
+---
+
+## 2. Catalogación y Clasificación del Paciente
+
+### 2.1. Clasificación de la Presión Arterial (AHA/ACC)
+| Categoría | Sistólica (mmHg) | | Diastólica (mmHg) |
+| :--- | :--- | :--- | :--- |
+| **Normal** | < 120 | Y | < 80 |
+| **Elevada** | 120 - 129 | Y | < 80 |
+| **HTA Estadio 1** | 130 - 139 | O | 80 - 89 |
+| **HTA Estadio 2** | >= 140 | O | >= 90 |
+| **Crisis Hipertensiva** | > 180 | Y/O | > 120 |
+
+### 2.2. Clasificación de Lípidos (LDL-C)
+La catalogación se basa en el nivel de riesgo del paciente (ver Sección 3: Estratificación):
+- **Deseable:** < 100 mg/dL (Población general).
+- **Límite:** 130 - 159 mg/dL.
+- **Alto:** 160 - 189 mg/dL.
+- **Muy Alto:** >= 190 mg/dL (Considerar Hipercolesterolemia Familiar).
+
+### 2.3. Clasificación de la Diabetes Mellitus en RCV
+- **Riesgo Moderado:** Pacientes jóvenes (DM1 <35 años; DM2 <50 años) con duración <10 años, sin otros FRCV.
+- **Alto Riesgo:** DM >=10 años sin daño de órgano blanco + 1 FRCV adicional.
+- **Muy Alto Riesgo:** DM + Enfermedad CV establecida O daño de órgano blanco (Proteinuria, TFG <30).
+
+---
+
+## 3. Estratificación del Riesgo Cardiovascular
+
+### 3.1. Escalas Recomendadas
+1. **SCORE2 / SCORE2-OP (ESC):** Para pacientes de 40-69 años y >70 años respectivamente. Estima riesgo a 10 años de eventos CV fatales y no fatales.
+2. **ASCVD Risk Estimator (AHA/ACC):** Para pacientes de 40-79 años.
+3. **Framingham Heart Study:** Utilidad histórica, pero desplazada por SCORE2 en precisión.
+
+### 3.2. Categorías de Riesgo Clínico
+| Categoría | Perfil del Paciente |
+| :--- | :--- |
+| **Muy Alto Riesgo** | ASCVD establecida (Infarto, Ictus, Revascularización), DM con daño de órgano blanco, IRC Severa (TFG <30). |
+| **Alto Riesgo** | FRCV individuales muy elevados (TA >=180/110, Colesterol >310), DM sin daño de órgano blanco, IRC Moderada (TFG 30-59). |
+| **Moderado Riesgo** | SCORE2 5-10% en pacientes de 50-69 años. |
+| **Bajo Riesgo** | SCORE2 <5% en pacientes de 50-69 años. |
+
+---
+
+## 4. Metas Terapéuticas
+
+### 4.1. Control Lipídico (Meta LDL-C)
+- **Muy Alto Riesgo:** < 55 mg/dL Y reducción >=50% respecto al basal.
+- **Alto Riesgo:** < 70 mg/dL Y reducción >=50%.
+- **Moderado Riesgo:** < 100 mg/dL.
+- **Bajo Riesgo:** < 115 mg/dL.
+
+### 4.2. Control de Presión Arterial
+- **Meta General:** < 130/80 mmHg (si es bien tolerado).
+- **Pacientes >70 años:** Considerar metas más laxas (<140/90 mmHg) según fragilidad.
+
+---
+
+## 5. Algoritmos de Atención Clínica
+
+### 5.1. Abordaje Inicial de la Hipertensión
+```
+[TA >=140/90]
+      |
+      V
+[Cambios Estilo Vida + Terapia Dual Inicial (IECA/ARAII + BCC/Diurético)]
+      |
+      V
+[¿Meta alcanzada en 1 mes?] -- No --> [Ajustar dosis o agregar 3er fármaco]
+      |
+      Sí
+      V
+[Seguimiento trimestral]
+```
+
+### 5.2. Manejo de Dislipidemia
+1. **Evaluar Riesgo:** Aplicar SCORE2 o ASCVD.
+2. **Intervención:**
+   - Riesgo Bajo/Mod: Estilo de vida -> Revaluar.
+   - Riesgo Alto/Muy Alto: Estatinas de alta intensidad desde el inicio.
+
+---
+
+## 6. Algoritmos de Selección de Medicamentos
+
+### 6.1. Antihipertensivos de Primera Línea
+- **IECA (Enalapril, Lisinopril)** o **ARA II (Losartán, Valsartán)**. *Nota: No combinar IECA + ARA II.*
+- **Calcioantagonistas (Amlodipino)**.
+- **Diuréticos Tiazídicos (Clortalidona, Hidroclorotiazida)**.
+
+### 6.2. Estatinas por Intensidad
+- **Alta Intensidad (Baja LDL >=50%):** Atorvastatina 40-80mg, Rosuvastatina 20-40mg.
+- **Moderada Intensidad (Baja LDL 30-49%):** Atorvastatina 10-20mg, Rosuvastatina 5-10mg, Simvastatina 20-40mg.
+
+---
+
+## 7. Protocolos Multidisciplinarios
+
+### 7.1. Nutrición Clínica (Enfoque RCV)
+- **Patrón DASH:** Rico en frutas, verduras, lácteos bajos en grasa y bajo en sodio (<2300mg/día).
+- **Dieta Mediterránea:** Grasas monoinsaturadas (Aceite de oliva), frutos secos, legumbres y consumo moderado de pescado.
+- **Recomendación Dislipidemia:** Fibra soluble (>10g/día) y fitoesteroles (2g/día).
+
+### 7.2. Psicología y Estilos de Vida
+- **Entrevista Motivacional:** Identificar barreras para la adherencia al tratamiento.
+- **Cese del Tabaquismo:** Intervención breve ("5 As"): Ask, Advise, Assess, Assist, Arrange.
+- **Manejo del Estrés:** Mindfulness y actividad física aeróbica regular (150 min/semana moderada).
+
+### 7.3. Medicina Interna (Comorbilidades)
+- **ERC:** Ajuste de dosis según TFG. Evitar AINEs.
+- **Obesidad:** Objetivo de reducción ponderal del 5-10% para mejorar perfil metabólico.
+- **Diabetes:** Priorizar iSGLT2 o arGLP1 en pacientes con alto riesgo CV o IC.
+
+---
+
+## 8. Bibliografía y Fuentes
+- *ESC Guidelines for the management of cardiovascular risk in clinical practice (2021/2023).*
+- *AHA/ACC Guideline on the Management of Blood Cholesterol (2018).*
+- *AHA/ACC/ASH Scientific Statement on Hypertension (2017/2020).*
