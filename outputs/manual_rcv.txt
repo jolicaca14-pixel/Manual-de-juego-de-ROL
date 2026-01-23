@@ -1,125 +1,91 @@
-# MANUAL TÉCNICO: CONTROL DEL RIESGO CARDIOVASCULAR
-*Una guía multidisciplinaria para la práctica clínica*
-
-## 1. Introducción
-Este documento centraliza los protocolos actuales para el manejo integral del riesgo cardiovascular (RCV), integrando recomendaciones de la AHA, ACC y ESC, junto con pautas de nutrición y psicología.
+# MANUAL CLÍNICO OPERATIVO: CONTROL DEL RIESGO CARDIOVASCULAR
+*Guía paso a paso e implementación técnica para la práctica médica*
 
 ---
 
-## 2. Catalogación y Clasificación del Paciente
-
-### 2.1. Clasificación de la Presión Arterial (AHA/ACC)
-| Categoría | Sistólica (mmHg) | | Diastólica (mmHg) |
-| :--- | :--- | :--- | :--- |
-| **Normal** | < 120 | Y | < 80 |
-| **Elevada** | 120 - 129 | Y | < 80 |
-| **HTA Estadio 1** | 130 - 139 | O | 80 - 89 |
-| **HTA Estadio 2** | >= 140 | O | >= 90 |
-| **Crisis Hipertensiva** | > 180 | Y/O | > 120 |
-
-### 2.2. Clasificación de Lípidos (LDL-C)
-La catalogación se basa en el nivel de riesgo del paciente (ver Sección 3: Estratificación):
-- **Deseable:** < 100 mg/dL (Población general).
-- **Límite:** 130 - 159 mg/dL.
-- **Alto:** 160 - 189 mg/dL.
-- **Muy Alto:** >= 190 mg/dL (Considerar Hipercolesterolemia Familiar).
-
-### 2.3. Clasificación de la Diabetes Mellitus en RCV
-- **Riesgo Moderado:** Pacientes jóvenes (DM1 <35 años; DM2 <50 años) con duración <10 años, sin otros FRCV.
-- **Alto Riesgo:** DM >=10 años sin daño de órgano blanco + 1 FRCV adicional.
-- **Muy Alto Riesgo:** DM + Enfermedad CV establecida O daño de órgano blanco (Proteinuria, TFG <30).
+## 1. INTRODUCCIÓN Y OBJETIVO
+Este manual está diseñado para ser una herramienta de consulta rápida en el consultorio. Proporciona una ruta clara de atención y las bases para automatizar el seguimiento de pacientes mediante herramientas como Excel.
 
 ---
 
-## 3. Estratificación del Riesgo Cardiovascular
+## 2. PROTOCOLO DE ATENCIÓN: PASO A PASO
 
-### 3.1. Escalas Recomendadas
-1. **SCORE2 / SCORE2-OP (ESC):** Para pacientes de 40-69 años y >70 años respectivamente. Estima riesgo a 10 años de eventos CV fatales y no fatales.
-2. **ASCVD Risk Estimator (AHA/ACC):** Para pacientes de 40-79 años.
-3. **Framingham Heart Study:** Utilidad histórica, pero desplazada por SCORE2 en precisión.
+### PASO 1: Valoración Inicial (Filtro de Entrada)
+1. **Medidas Físicas:** Tome Peso (kg), Talla (m) y calcule el IMC. Mida la Circunferencia Abdominal.
+2. **Presión Arterial (PA):** Realice la toma en posición sentada, tras 5 min de reposo. Use el promedio de 2-3 tomas.
+3. **Anamnesis:** Identifique tabaquismo activo y antecedentes de enfermedad cardiovascular (ECV) prematura en familiares.
 
-### 3.2. Categorías de Riesgo Clínico
-| Categoría | Perfil del Paciente |
-| :--- | :--- |
-| **Muy Alto Riesgo** | ASCVD establecida (Infarto, Ictus, Revascularización), DM con daño de órgano blanco, IRC Severa (TFG <30). |
-| **Alto Riesgo** | FRCV individuales muy elevados (TA >=180/110, Colesterol >310), DM sin daño de órgano blanco, IRC Moderada (TFG 30-59). |
-| **Moderado Riesgo** | SCORE2 5-10% en pacientes de 50-69 años. |
-| **Bajo Riesgo** | SCORE2 <5% en pacientes de 50-69 años. |
+### PASO 2: Clasificación de Laboratorio
+Revise los últimos resultados (no mayores a 6 meses):
+- **LDL-C:** Principal marcador para tratamiento.
+- **TFG (Tasa de Filtración Glomerular):** Identifique pacientes con <60 ml/min.
+- **HbA1c / Glucemia:** Para definir estado diabético.
 
----
+### PASO 3: Estratificación Rápida (Cribado de Riesgo)
+*Antes de usar calculadoras, identifique pacientes con riesgo "Automático":*
+- **MUY ALTO RIESGO:** Pacientes con ECV establecida (Infarto previo, Ictus, EAP), Diabetes con daño de órgano blanco, o ERC severa (TFG <30).
+- **ALTO RIESGO:** Hipertensión severa (>=180/110), Colesterol Total >310 mg/dL, o Diabetes sin daño de órgano blanco.
 
-## 4. Metas Terapéuticas
+### PASO 4: Uso de Escalas de Riesgo (Prevención Primaria)
+Para pacientes que no clasifican en el Paso 3, aplique la escala **SCORE2** o **ASCVD Risk Estimator**:
+- Ingrese: Edad, Sexo, PA Sistólica, Colesterol No-HDL y Tabaquismo.
+- **Resultado:** Porcentaje de riesgo a 10 años.
 
-### 4.1. Control Lipídico (Meta LDL-C)
-- **Muy Alto Riesgo:** < 55 mg/dL Y reducción >=50% respecto al basal.
-- **Alto Riesgo:** < 70 mg/dL Y reducción >=50%.
-- **Moderado Riesgo:** < 100 mg/dL.
-- **Bajo Riesgo:** < 115 mg/dL.
-
-### 4.2. Control de Presión Arterial
-- **Meta General:** < 130/80 mmHg (si es bien tolerado).
-- **Pacientes >70 años:** Considerar metas más laxas (<140/90 mmHg) según fragilidad.
+### PASO 5: Definición de Metas y Tratamiento
+- **Metas LDL:** Muy Alto <55 mg/dL | Alto <70 mg/dL | Mod <100 mg/dL.
+- **Metas TA:** <130/80 mmHg en la mayoría de los casos.
 
 ---
 
-## 5. Algoritmos de Atención Clínica
+## 3. IMPLEMENTACIÓN EN EXCEL (GUÍA DE PROGRAMACIÓN)
 
-### 5.1. Abordaje Inicial de la Hipertensión
-```
-[TA >=140/90]
-      |
-      V
-[Cambios Estilo Vida + Terapia Dual Inicial (IECA/ARAII + BCC/Diurético)]
-      |
-      V
-[¿Meta alcanzada en 1 mes?] -- No --> [Ajustar dosis o agregar 3er fármaco]
-      |
-      Sí
-      V
-[Seguimiento trimestral]
-```
+### 3.1. Fórmulas Básicas de Automatización
+Cree una hoja de cálculo con las siguientes fórmulas para agilizar su consulta:
 
-### 5.2. Manejo de Dislipidemia
-1. **Evaluar Riesgo:** Aplicar SCORE2 o ASCVD.
-2. **Intervención:**
-   - Riesgo Bajo/Mod: Estilo de vida -> Revaluar.
-   - Riesgo Alto/Muy Alto: Estatinas de alta intensidad desde el inicio.
+1. **Cálculo de IMC:**
+   `=B2 / (C2^2)`  *(Donde B2 es Peso y C2 es Talla)*
 
----
+2. **Cálculo de Colesterol No-HDL:**
+   `=Total_Col - HDL_Col`
 
-## 6. Algoritmos de Selección de Medicamentos
+3. **Alerta de Presión Arterial (Semáforo):**
+   `=SI(PAS>=140; "HTA Estadio 2"; SI(PAS>=130; "HTA Estadio 1"; "Normal/Elevada"))`
 
-### 6.1. Antihipertensivos de Primera Línea
-- **IECA (Enalapril, Lisinopril)** o **ARA II (Losartán, Valsartán)**. *Nota: No combinar IECA + ARA II.*
-- **Calcioantagonistas (Amlodipino)**.
-- **Diuréticos Tiazídicos (Clortalidona, Hidroclorotiazida)**.
+### 3.2. Lógica de Estratificación (Fórmula de Decisión)
+Puede programar una celda para que le indique el nivel de riesgo automáticamente:
+`=SI(O(Evento_CV="S"; DM_Dano="S"; TFG<30); "Muy Alto Riesgo"; SI(O(PAS>=180; Col_T>310); "Alto Riesgo"; "Calcular SCORE2"))`
 
-### 6.2. Estatinas por Intensidad
-- **Alta Intensidad (Baja LDL >=50%):** Atorvastatina 40-80mg, Rosuvastatina 20-40mg.
-- **Moderada Intensidad (Baja LDL 30-49%):** Atorvastatina 10-20mg, Rosuvastatina 5-10mg, Simvastatina 20-40mg.
+### 3.3. Recomendaciones para el Tablero de Excel
+- Use **Formato Condicional** para resaltar en rojo los valores fuera de meta (ej. PAS >130).
+- Cree una **Lista Desplegable** (Datos -> Validación de datos) para Tabaquismo (Sí/No) y Sexo (M/F).
 
 ---
 
-## 7. Protocolos Multidisciplinarios
+## 4. ALGORITMOS DE TRATAMIENTO
 
-### 7.1. Nutrición Clínica (Enfoque RCV)
-- **Patrón DASH:** Rico en frutas, verduras, lácteos bajos en grasa y bajo en sodio (<2300mg/día).
-- **Dieta Mediterránea:** Grasas monoinsaturadas (Aceite de oliva), frutos secos, legumbres y consumo moderado de pescado.
-- **Recomendación Dislipidemia:** Fibra soluble (>10g/día) y fitoesteroles (2g/día).
+### 4.1. Selección de Antihipertensivos
+- **Terapia Dual Inicial:** IECA o ARA II + Calcioantagonista o Diurético.
+- **Excepción:** Pacientes con fragilidad o HTA Estadio 1 de bajo riesgo pueden iniciar monoterapia.
 
-### 7.2. Psicología y Estilos de Vida
-- **Entrevista Motivacional:** Identificar barreras para la adherencia al tratamiento.
-- **Cese del Tabaquismo:** Intervención breve ("5 As"): Ask, Advise, Assess, Assist, Arrange.
-- **Manejo del Estrés:** Mindfulness y actividad física aeróbica regular (150 min/semana moderada).
-
-### 7.3. Medicina Interna (Comorbilidades)
-- **ERC:** Ajuste de dosis según TFG. Evitar AINEs.
-- **Obesidad:** Objetivo de reducción ponderal del 5-10% para mejorar perfil metabólico.
-- **Diabetes:** Priorizar iSGLT2 o arGLP1 en pacientes con alto riesgo CV o IC.
+### 4.2. Intensidad de Estatinas
+- **Alta Intensidad (Atorvastatina 40-80mg):** Obligatoria en Riesgo Muy Alto y Alto.
+- **Moderada Intensidad:** Para pacientes con riesgo moderado.
 
 ---
 
-## 8. Bibliografía y Fuentes
-- *ESC Guidelines for the management of cardiovascular risk in clinical practice (2021/2023).*
-- *AHA/ACC Guideline on the Management of Blood Cholesterol (2018).*
-- *AHA/ACC/ASH Scientific Statement on Hypertension (2017/2020).*
+## 5. PROTOCOLOS MULTIDISCIPLINARIOS
+
+### 5.1. Nutrición (Paso a Paso)
+1. Evaluar consumo de sodio (>2.3g/día es riesgo).
+2. Prescribir **Dieta DASH** (Baja en sodio, alta en potasio/magnesio).
+3. Recomendar 30g de fibra diaria para reducción de LDL.
+
+### 5.2. Psicología y Adherencia
+1. Use la **Escala de Morisky-Levine** para evaluar adherencia.
+2. Aplicar técnica de **Entrevista Motivacional** para el cese del tabaquismo.
+
+---
+
+## 6. BIBLIOGRAFÍA
+- ESC Guidelines for CV Risk Prevention (2021/2023).
+- AHA/ACC Multisociety Guideline on Blood Cholesterol (2018).

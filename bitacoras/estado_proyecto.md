@@ -1,11 +1,10 @@
 # Estado General del Proyecto
 
 **Fecha:** 2026-01-23
-**Estado Actual:** Fase 5 - Entrega Final y Cierre.
-**Progreso:** 100% completado.
+**Estado Actual:** Fase 6 - Refinamiento Operacional e Implementación Técnica (Excel).
+**Progreso:** 85% completado (ajustado por nuevos requerimientos).
 **Bloqueos:** Ninguno.
 **Tareas Pendientes:**
-- [x] Generar Secciones 1-8.
-- [x] Integrar protocolos multidisciplinarios.
-- [x] Formatear como .txt Markdown.
-- [ ] Entregar al usuario.
+- [ ] Desarrollar protocolo clínico "Paso a Paso".
+- [ ] Crear guía de programación de escalas en Excel.
+- [ ] Actualizar manual final `outputs/manual_rcv.txt`.

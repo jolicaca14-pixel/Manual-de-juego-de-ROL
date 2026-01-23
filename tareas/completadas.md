@@ -1,11 +1,4 @@
 # Tareas Completadas
 - [x] Inicializar estructura de carpetas obligatoria.
-- [x] Fase 0: Definición de Objetivos y Cuestionario Inicial.
-- [x] Fase 0: Creación de Documentación Fundamental.
-- [x] Transición a modo autónomo activada.
-- [x] Fase 1: Análisis de Arquitectura.
-- [x] Fase 2: Recopilación de Expertise.
-- [x] Fase 3: Diseño de Agentes.
-- [x] Fase 4: Generación de secciones técnicas (CardioAgente).
-- [x] Fase 4: Integración multidisciplinaria (NutriAgente/PsicoAgente).
-- [x] Fase 5: Consolidación y formateo final (EditorAgente).
+- [x] Fase 0-5: Generación de base técnica multidisciplinaria.
+- [x] Consolidación de guías internacionales (AHA/ESC).
