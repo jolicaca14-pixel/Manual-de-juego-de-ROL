@@ -1,10 +1,10 @@
 # Estado General del Proyecto
 
 **Fecha:** 2026-01-23
-**Estado Actual:** Fase 0 - Interrogatorio Estratégico (Pregunta 2: Especificidad).
-**Progreso:** 10% completado.
-**Bloqueos:** Ninguno.
+**Estado Actual:** Fase 0 - Interrogatorio Estratégico (Cuestionario Entregado).
+**Progreso:** 15% completado.
+**Bloqueos:** Pendiente de respuestas detalladas al Cuestionario Inicial.
 **Tareas Pendientes:**
-- [ ] Completar interrogatorio estratégico (Preguntas 2-6).
-- [ ] Crear documentación fundamental en `/documentacion/`.
+- [ ] Analizar respuestas al Cuestionario Inicial.
+- [ ] Crear documentación fundamental (Objetivos.md, etc.) en `/documentacion/`.
 - [ ] Diseñar equipo de agentes especializados.

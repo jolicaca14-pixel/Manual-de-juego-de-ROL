@@ -1,2 +1,2 @@
 # Tareas en Proceso
-- [ ] Pregunta 2 - Especificidad: Definir el resultado final exitoso y sus características.
+- [ ] Fase 0: Interrogatorio Estratégico - Pendiente de respuestas del usuario al `Cuestionario_Inicial.md`.
