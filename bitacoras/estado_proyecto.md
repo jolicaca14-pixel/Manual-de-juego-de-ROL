@@ -1,10 +1,9 @@
 # Estado General del Proyecto
 
 **Fecha:** 2026-01-23
-**Estado Actual:** Fase 6 - Refinamiento Operacional e Implementación Técnica (Excel).
-**Progreso:** 85% completado (ajustado por nuevos requerimientos).
+**Estado Actual:** Fase 6.2 - Ingeniería de Fórmulas para Excel (SCORE2 y ASCVD).
+**Progreso:** 90% completado.
 **Bloqueos:** Ninguno.
 **Tareas Pendientes:**
-- [ ] Desarrollar protocolo clínico "Paso a Paso".
-- [ ] Crear guía de programación de escalas en Excel.
-- [ ] Actualizar manual final `outputs/manual_rcv.txt`.
+- [ ] Desarrollar apéndice técnico con coeficientes y fórmulas exactas para Excel.
+- [ ] Integrar guía de codificación en el manual final.

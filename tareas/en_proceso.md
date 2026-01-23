@@ -1,3 +1,3 @@
 # Tareas en Proceso
-- [ ] Desarrollo de protocolo clínico operacional "Paso a Paso".
-- [ ] Diseño de fórmulas y lógica para Excel de escalas RCV.
+- [ ] Codificación de fórmulas matemáticas de ASCVD y SCORE2 para Excel.
+- [ ] Creación de Apéndice Técnico de Implementación.

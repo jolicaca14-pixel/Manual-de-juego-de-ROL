@@ -41,23 +41,15 @@ Para pacientes que no clasifican en el Paso 3, aplique la escala **SCORE2** o **
 
 ### 3.1. Fórmulas Básicas de Automatización
 Cree una hoja de cálculo con las siguientes fórmulas para agilizar su consulta:
+- **Cálculo de IMC:** `=Peso / (Talla^2)`
+- **Alerta de PA:** `=SI(PAS>=140; "HTA Estadio 2"; SI(PAS>=130; "HTA Estadio 1"; "Normal"))`
 
-1. **Cálculo de IMC:**
-   `=B2 / (C2^2)`  *(Donde B2 es Peso y C2 es Talla)*
+### 3.2. Codificación de Escalas Complejas (ASCVD / SCORE2)
+Para programar las escalas matemáticas, consulte el **Apéndice Técnico de Excel** (`documentacion/Excel_Tech_Appendix.md`), donde encontrará los coeficientes exactos.
 
-2. **Cálculo de Colesterol No-HDL:**
-   `=Total_Col - HDL_Col`
-
-3. **Alerta de Presión Arterial (Semáforo):**
-   `=SI(PAS>=140; "HTA Estadio 2"; SI(PAS>=130; "HTA Estadio 1"; "Normal/Elevada"))`
-
-### 3.2. Lógica de Estratificación (Fórmula de Decisión)
-Puede programar una celda para que le indique el nivel de riesgo automáticamente:
-`=SI(O(Evento_CV="S"; DM_Dano="S"; TFG<30); "Muy Alto Riesgo"; SI(O(PAS>=180; Col_T>310); "Alto Riesgo"; "Calcular SCORE2"))`
-
-### 3.3. Recomendaciones para el Tablero de Excel
-- Use **Formato Condicional** para resaltar en rojo los valores fuera de meta (ej. PAS >130).
-- Cree una **Lista Desplegable** (Datos -> Validación de datos) para Tabaquismo (Sí/No) y Sexo (M/F).
+**Lógica Matemática ASCVD:**
+`Riesgo = 1 - (S10 ^ EXP(Suma_Beta*X - Media))`
+*Se requiere usar la función LN() para transformar Edad, Colesterol y Presión Arterial antes de multiplicar por sus respectivos coeficientes.*
 
 ---
 
@@ -77,7 +69,7 @@ Puede programar una celda para que le indique el nivel de riesgo automáticament
 
 ### 5.1. Nutrición (Paso a Paso)
 1. Evaluar consumo de sodio (>2.3g/día es riesgo).
-2. Prescribir **Dieta DASH** (Baja en sodio, alta en potasio/magnesio).
+2. Prescribir **Dieta DASH**.
 3. Recomendar 30g de fibra diaria para reducción de LDL.
 
 ### 5.2. Psicología y Adherencia
@@ -89,3 +81,4 @@ Puede programar una celda para que le indique el nivel de riesgo automáticament
 ## 6. BIBLIOGRAFÍA
 - ESC Guidelines for CV Risk Prevention (2021/2023).
 - AHA/ACC Multisociety Guideline on Blood Cholesterol (2018).
+- ASCVD Pooled Cohort Equations (ACC/AHA 2013).
