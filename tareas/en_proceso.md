@@ -1,2 +1,2 @@
 # Tareas en Proceso
-- [ ] Fase 0: Interrogatorio Estratégico.
+- [ ] Pregunta 2 - Especificidad: Definir el resultado final exitoso y sus características.
