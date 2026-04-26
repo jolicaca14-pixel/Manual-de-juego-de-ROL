@@ -1,0 +1,84 @@
+# MANUAL CLÍNICO OPERATIVO: CONTROL DEL RIESGO CARDIOVASCULAR
+*Guía paso a paso e implementación técnica para la práctica médica*
+
+---
+
+## 1. INTRODUCCIÓN Y OBJETIVO
+Este manual está diseñado para ser una herramienta de consulta rápida en el consultorio. Proporciona una ruta clara de atención y las bases para automatizar el seguimiento de pacientes mediante herramientas como Excel.
+
+---
+
+## 2. PROTOCOLO DE ATENCIÓN: PASO A PASO
+
+### PASO 1: Valoración Inicial (Filtro de Entrada)
+1. **Medidas Físicas:** Tome Peso (kg), Talla (m) y calcule el IMC. Mida la Circunferencia Abdominal.
+2. **Presión Arterial (PA):** Realice la toma en posición sentada, tras 5 min de reposo. Use el promedio de 2-3 tomas.
+3. **Anamnesis:** Identifique tabaquismo activo y antecedentes de enfermedad cardiovascular (ECV) prematura en familiares.
+
+### PASO 2: Clasificación de Laboratorio
+Revise los últimos resultados (no mayores a 6 meses):
+- **LDL-C:** Principal marcador para tratamiento.
+- **TFG (Tasa de Filtración Glomerular):** Identifique pacientes con <60 ml/min.
+- **HbA1c / Glucemia:** Para definir estado diabético.
+
+### PASO 3: Estratificación Rápida (Cribado de Riesgo)
+*Antes de usar calculadoras, identifique pacientes con riesgo "Automático":*
+- **MUY ALTO RIESGO:** Pacientes con ECV establecida (Infarto previo, Ictus, EAP), Diabetes con daño de órgano blanco, o ERC severa (TFG <30).
+- **ALTO RIESGO:** Hipertensión severa (>=180/110), Colesterol Total >310 mg/dL, o Diabetes sin daño de órgano blanco.
+
+### PASO 4: Uso de Escalas de Riesgo (Prevención Primaria)
+Para pacientes que no clasifican en el Paso 3, aplique la escala **SCORE2** o **ASCVD Risk Estimator**:
+- Ingrese: Edad, Sexo, PA Sistólica, Colesterol No-HDL y Tabaquismo.
+- **Resultado:** Porcentaje de riesgo a 10 años.
+
+### PASO 5: Definición de Metas y Tratamiento
+- **Metas LDL:** Muy Alto <55 mg/dL | Alto <70 mg/dL | Mod <100 mg/dL.
+- **Metas TA:** <130/80 mmHg en la mayoría de los casos.
+
+---
+
+## 3. IMPLEMENTACIÓN EN EXCEL (GUÍA DE PROGRAMACIÓN)
+
+### 3.1. Fórmulas Básicas de Automatización
+Cree una hoja de cálculo con las siguientes fórmulas para agilizar su consulta:
+- **Cálculo de IMC:** `=Peso / (Talla^2)`
+- **Alerta de PA:** `=SI(PAS>=140; "HTA Estadio 2"; SI(PAS>=130; "HTA Estadio 1"; "Normal"))`
+
+### 3.2. Codificación de Escalas Complejas (ASCVD / SCORE2)
+Para programar las escalas matemáticas, consulte el **Apéndice Técnico de Excel** (`documentacion/Excel_Tech_Appendix.md`), donde encontrará los coeficientes exactos.
+
+**Lógica Matemática ASCVD:**
+`Riesgo = 1 - (S10 ^ EXP(Suma_Beta*X - Media))`
+*Se requiere usar la función LN() para transformar Edad, Colesterol y Presión Arterial antes de multiplicar por sus respectivos coeficientes.*
+
+---
+
+## 4. ALGORITMOS DE TRATAMIENTO
+
+### 4.1. Selección de Antihipertensivos
+- **Terapia Dual Inicial:** IECA o ARA II + Calcioantagonista o Diurético.
+- **Excepción:** Pacientes con fragilidad o HTA Estadio 1 de bajo riesgo pueden iniciar monoterapia.
+
+### 4.2. Intensidad de Estatinas
+- **Alta Intensidad (Atorvastatina 40-80mg):** Obligatoria en Riesgo Muy Alto y Alto.
+- **Moderada Intensidad:** Para pacientes con riesgo moderado.
+
+---
+
+## 5. PROTOCOLOS MULTIDISCIPLINARIOS
+
+### 5.1. Nutrición (Paso a Paso)
+1. Evaluar consumo de sodio (>2.3g/día es riesgo).
+2. Prescribir **Dieta DASH**.
+3. Recomendar 30g de fibra diaria para reducción de LDL.
+
+### 5.2. Psicología y Adherencia
+1. Use la **Escala de Morisky-Levine** para evaluar adherencia.
+2. Aplicar técnica de **Entrevista Motivacional** para el cese del tabaquismo.
+
+---
+
+## 6. BIBLIOGRAFÍA
+- ESC Guidelines for CV Risk Prevention (2021/2023).
+- AHA/ACC Multisociety Guideline on Blood Cholesterol (2018).
+- ASCVD Pooled Cohort Equations (ACC/AHA 2013).
